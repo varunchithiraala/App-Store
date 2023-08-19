@@ -1,0 +1,88 @@
+/* Write your CSS here */
+.app-store-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.app-store {
+  width: 85%;
+  max-width: 1140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-store-heading {
+  color: #1e293b;
+  font-family: "Bree Serif";
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 64px;
+  margin-bottom: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-store-heading {
+    font-size: 48px;
+    margin-top: 96px;
+  }
+}
+
+.app-store-input-container {
+  background-color: transparent;
+  height: 40px;
+  width: 100%;
+  max-width: 240px;
+  border: 1px solid #7b8794;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .app-store-input-container {
+    max-width: 480px;
+  }
+}
+
+.search-input {
+  background-color: transparent;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+}
+
+.search-icon-image {
+  height: 24px;
+  width: 24px;
+}
+
+.tabs-list {
+  padding-left: 0px;
+  margin-top: 32px;
+  display: flex;
+  align-items: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+  .tabs-list {
+    margin-top: 48px;
+  }
+}
+
+.apps-list {
+  padding-left: 0px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
